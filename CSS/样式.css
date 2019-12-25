@@ -1,0 +1,171 @@
+    *{
+		margin: 0;
+		padding: 0;
+    }
+			
+		/* 头 */
+		#Head{
+			width: 80%;
+			height: 100px;
+			position: absolute;
+			right: 0px;
+			background-color: white;
+		}
+		    /* 给时间上样式 */
+			#time{
+				position: absolute;
+				top: 40px;
+				right: 100px;
+				
+			}
+			/* 给日历链接上样式 */
+			#cale{
+				color: #7FFFD4;
+				position: absolute;
+				top: 40px;
+				right: 10px;
+			}
+			/* 日历标签悬浮 */
+			#cale:hover{
+				color:#1ABC9C ;
+			}
+			
+				
+		/* 导航栏 */
+		#Navigation{
+			width: 80%;
+			height: 30px;
+			position: absolute;
+			top: 100px;
+			right: 0px;
+			background-color: aquamarine;
+		}
+			
+			
+		/* 左边信息框背景 */
+		#Left{
+			width: 300px;
+			height: 700px;
+			background-image: url("../IMG/背景2.jpg");
+			opacity: 0.6;
+			position: fixed;
+			box-shadow: 5px 5px 3px #A9A9A9;
+		}
+		/* 左边信息框核心 */
+		#Left2{
+			width: 300px;
+			height: 700px;
+			position: fixed;
+		}
+			/* 头像 */
+			#headPortrait{
+				width: 100px;
+				height: 100px;
+				border: 2px solid #000000;
+				border-radius: 50%;
+				position: absolute;
+				left: 20px;
+				top: 40px;
+			}
+			/* 昵称 */
+			#name{
+				position: absolute;
+				left: 150px;
+				top: 50px;
+			}
+			/* 个签 */
+			#PerS{
+				width: 140px;
+				height: 15px;
+				overflow: hidden;
+				position: absolute;
+				left: 150px;
+				top: 100px;
+			}
+			/* 隐藏个签 */
+			#PerS2{
+				width: 140px ;
+				height: 140px;
+				background-color: #7FFFD4;
+				display: none;
+				position: absolute;
+				padding-top: 20px;
+				text-indent: 20px;
+			}
+			/* 任务栏 */
+			.RWL{
+				width: 300px;
+				height: 30px;
+				line-height: 30px;
+				
+			}
+			    /* 首页 */
+			    #home{
+			    	position: absolute;
+			    	top: 200px;
+			    	background-color: aquamarine;
+			    }
+			    /* 文件 */
+			    #file{
+			    	position: absolute;
+			    	top: 230px;
+			    }
+			    /* 更新 */
+			    #updata{
+			    	position: absolute;
+			    	top: 260px;
+			    }
+			    /* 关于我 */
+			    #aboutMe{
+			    	position: absolute;
+			    	top: 290px;
+			    }
+			    /* 我的博客 */
+			    #boke{
+			    	position: absolute;
+			    	top: 320px;
+			    }
+			
+		/* 内容 */
+		#Content{
+			width: 80%;
+			border: 1px solid red;
+			
+			position: absolute;
+			right: 0;
+			top: 150px;
+		}
+			#Content div{
+				border: 1px solid red;
+				height: 500px;
+			}
+			
+			#Content div h1{
+				color: #1ABC9C;
+				text-align: center;
+			}
+			/* 首页内容 */
+			/* #h{
+				height: 100px;
+				
+			} */
+			
+			
+			/* 文件内容 */
+			/* 更新内容 */
+			/* 关于我内容 */
+			/* 我的博客内容 */
+			
+			
+		/* 底部 */
+		#Bottom{
+			width: 100%;
+			height: 30px;
+			border: 1px solid black;
+			text-align: center;
+			color: darkgray;
+			line-height: 30px;
+			display: block;
+			float: bottom;
+			position: absolute;
+		}

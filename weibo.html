@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>我的博客</title>
+		<!-- 引入JQ -->
+		<script src="./LIB/jquery-3.4.1.min.js"> </script>
+		
+		<!-- 引入js操作 -->
+		<script src="./JS/boke.js"></script>
+		
+		<!-- 引入样式操作 -->
+		<link rel="stylesheet" type="text/css" href="./CSS/样式.css"/>
+	</head>
+	
+	<body style="height: 2000px;">
+		<!-- 头部 -->
+		<div id="Head">
+			
+			<div id="time">
+				
+			</div>
+			<a id="cale" href="./LIB/日历.html">日历</a>
+		</div>
+		
+		<!-- 导航栏 -->
+		<div id="Navigation">
+			
+		</div>
+		
+		<!-- 左边==>信息栏 -->
+		<div id="Left">
+		</div>
+		<div id="Left2">
+			<!-- 头像 -->
+			<img id ="headPortrait"  src="./IMG/头像.gif" >
+			<!-- 昵称 -->
+			<div id = "name">
+				<h2>小四</h2>
+			</div>
+			<!-- 个性签名 -->
+			<div id="PerS">
+				<h6>积极、乐观、开朗、从容、健康、平和、美丽、帅气</h6>
+			</div>
+			<div id="PerS2">
+				<h6>积极、乐观、开朗、从容、健康、平和、美丽、帅气</h6>
+			</div>
+			<!-- 任务栏 -->
+			<div id="home" class = "RWL">
+				<h5>🎪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页</h5>
+			</div>
+			<div id="file" class="RWL">
+				<h5>📧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文件</h5>
+			</div>
+			<div id="updata" class="RWL">
+				<h5>🕐&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更新</h5>
+			</div>
+			<div id="aboutMe" class = "RWL">
+				<h5>🙎 ‍️&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于我</h5>
+			</div>
+			<div id="boke" class="RWL">
+				<h5>😘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的博客</h5>
+			</div>
+		</div>
+		
+		<!-- 内容 -->
+		<div id="Content">
+			<!-- 首页 -->
+			<div id="h">
+				<h1>首页</h1>
+			</div> 
+			
+			<!-- 文件 -->
+			<div id="f">
+				<h1>文件</h1>
+			</div>
+			
+			<!-- 更新 -->
+			<div id="u">
+				<h1>更新</h1>
+			</div>
+			
+			<!-- 关于我 -->
+			<div id="a">
+				<h1>关于我</h1>
+				
+			</div>
+			
+			<!-- 我的博客 -->
+			<div id="b">
+				<h1>我的博客</h1>
+			</div>
+		</div>
+		
+		<!-- 底部 -->
+		<div id="Bottom">
+			<h6>已经到底了~ </h6>
+		</div>
+		<script type="text/javascript">
+			
+			
+			//绑定个性签名的移出移入
+			gqEL ();
+			
+			// 绑定任务栏的移出移入和点击
+			rwlELC ();
+			
+			// 给底部上边框
+			var bottom = document.getElementById("Bottom");
+			B(bottom);
+		</script>
+	</body>
+</html>
